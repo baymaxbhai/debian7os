@@ -2,7 +2,7 @@ Original Script for VPS Debian 7
 ===========================
 Service  
 -------  
-OpenVPN  : TCP 328 (client config : http://IPVPS:81/client.tar)  
+OpenVPN  : TCP 3128 (client config : http://IPVPS:81/client.tar)  
 OpenSSH : 22, 143  
 Dropbear : 443  
 Squid3 : 8080, (limit to IP VPS)
@@ -21,7 +21,7 @@ nethogs: nethogs venet0
 Script  
 ------  
 screenfetch  
-./trial. sh
+./trial.sh
 ./ps_mem.py  
 ./speedtest_cli.py --share  
 ./bench-network.sh  
@@ -42,5 +42,5 @@ VPS Akan Reboot Tiap 12 Jam Sekali
 
 ===========================
 
-                                              Modified by Yurissh Opensource
+                                              Modified by BAYMAX_BHAI Opensource
                                 Thanks to Original Creator Kang Arie Wijayanto and Mikodemos
