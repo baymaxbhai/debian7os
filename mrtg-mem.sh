@@ -7,5 +7,5 @@ UP=`uptime`
 echo $FREE
 echo $SWAP
 echo $UP
-echo "YurisshOS"
+echo -e "\e[1;33;44mbaymax\e[0m"
 
