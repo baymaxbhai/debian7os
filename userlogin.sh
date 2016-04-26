@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright by Yurissh OpenSource
+# Copyright by Baymax_Bhai_ssh
 # ================================
 # 
 
@@ -42,4 +42,4 @@ echo "-------------------"
 last | grep ppp | grep still
 
 echo "-----------------------------------------------"
-echo "Script Modified by Yurissh OpenSource";
+ecCho "Script Modified by baymax_bhai_ssh";
