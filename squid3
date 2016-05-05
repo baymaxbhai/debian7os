@@ -1,4 +1,5 @@
 #Squid Proxy 3.1
+#Baymax_Bhai
 apt-get -y install aptitude curl
 
 # Specify our IP Server
@@ -8,7 +9,7 @@ fi
 
 aptitude -y install squid3
 rm -f /etc/squid3/squid.conf
-wget -P /etc/squid3/ "https://raw.githubusercontent.com/baymaxbhai/debian7os/master/squid3.conf"
+wget -P /etc/squid3/ "https://raw.githubusercontent.com/baymaxbhai/debian7os/master/squid.conf"
 sed -i 's/#cache_dir/cache_dir/g' /etc/squid3/squid.conf
 
 sed -i "s/ipserver/$IP/g" /etc/squid3/squid.conf
