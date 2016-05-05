@@ -1,5 +1,6 @@
 #Squid Proxy 3.1
 #Baymax_Bhai
+
 apt-get -y install aptitude curl
 
 # Specify our IP Server
