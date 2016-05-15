@@ -42,4 +42,4 @@ echo "-------------------"
 last | grep ppp | grep still
 
 echo "-----------------------------------------------"
-ecCho "Script Modified by baymax_bhai_ssh";
+echo "BAYMAX_BHAI_SSH";
