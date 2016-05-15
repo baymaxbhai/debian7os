@@ -132,7 +132,7 @@ cd
 
 apt-get update;apt-get -y install wget curl
 
-wget https://raw.githubusercontent.com/baymaxbhai/debian7os/master/squid
+wget https://raw.githubusercontent.com/baymaxbhai/debian7os/master/squid3.sh
 
 chmod 100 squid.sh
 
