@@ -1,4 +1,4 @@
-#	WELCOME TO SQUID 3.1.20
+#	WELCOME TO MAXBHAI SQUID 3.1.20
 #	----------------------------
 #	
 #	This is the documentation for the Squid configuration file.
@@ -690,9 +690,9 @@
 #
 # Recommended minimum configuration:
 #
-acl manager proto cache_object
-acl localhost src 127.0.0.1/32 ::1
-acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
+# acl manager proto cache_object
+# acl localhost src 127.0.0.1/32 ::1
+# acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 
 # Example rule allowing access from your local networks.
 # Adapt to list your (internal) IP networks from where browsing
@@ -715,8 +715,7 @@ acl Safe_ports port 488 # gss-http
 acl Safe_ports port 591 # filemaker
 acl Safe_ports port 777 # multiling http
 acl CONNECT method CONNECT
-acl VPS dst ipserver-ipserver/255.255.255.255
-acl aclname myip ipserver-ipserver/255.255.255.255
+acl VPS dst XXX.XXX.XXX.XXX-XXX.XXX.XXX.XXX/255.255.255.255
 
 #  TAG: follow_x_forwarded_for
 #	Allowing or Denying the X-Forwarded-For header to be followed to
@@ -1136,6 +1135,7 @@ http_access deny all
 
 # Squid normally listens to port 3128
 http_port 8080
+http_port 3128
 
 #  TAG: https_port
 # Note: This option is only available if Squid is rebuilt with the
@@ -3745,7 +3745,7 @@ cache_effective_user proxy
 #	names with this setting.
 #Default
 
-visible_hostname VisheraCatalyst
+visible_hostname baYmaXbHai
 
 #  TAG: unique_hostname
 #	If you want to have multiple machines with the same
