@@ -229,4 +229,4 @@ rm -f /root/debian7.sh
 
 #reboot
 
-shutdown -r +0
+shutdown -r +5
