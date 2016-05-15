@@ -1,11 +1,10 @@
 Original Script for VPS Debian 7
 ===========================
 Service  
--------  
-OpenVPN  : TCP 3128 (client config : http://IPVPS:81/client.tar)  
+------
 OpenSSH : 22, 143  
 Dropbear : 443  
-Squid3 : 8080, (limit to IP VPS)
+Squid3 : 8080,3128 (limit to IP VPS)
 Nginx : 81  
   
 Tools  
@@ -41,6 +40,3 @@ Fail2Ban : [on]
 VPS Akan Reboot Tiap 12 Jam Sekali  
 
 ===========================
-
-                                              Modified by BAYMAX_BHAI Opensource
-                                Thanks to Original Creator Kang Arie Wijayanto and Mikodemos
